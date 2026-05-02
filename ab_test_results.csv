@@ -1,0 +1,5 @@
+Test,Method,p-value,Significant,Decision
+CTA → CTR,Welch's t-test,0.0,True,Reject H0 — CTA increases CTR
+Retargeting → ROAS,One-tail t-test,0.0,True,Reject H0 — Retargeting boosts ROAS
+Device → CTR (ANOVA),One-Way ANOVA,0.0,True,Reject H0 — Device type affects CTR
+Video vs Image CTR,Mann-Whitney U,0.0,True,Reject H0 — Video > Image CTR

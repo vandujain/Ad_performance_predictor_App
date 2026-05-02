@@ -1,0 +1,5 @@
+Model,ROC-AUC,F1 Score,Best_Params
+RF Baseline,0.9511,0.7983,n_estimators=100 (default)
+RF Tuned,0.9516,0.7951,"{'n_estimators': 300, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'sqrt', 'max_depth': None}"
+XGB Baseline,0.9721,0.8547,n_estimators=100 (default)
+XGB Tuned,0.9767,0.8687,"{'subsample': 0.9, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 4, 'learning_rate': 0.15, 'gamma': 0.2, 'colsample_bytree': 0.7}"
