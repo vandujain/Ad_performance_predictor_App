@@ -1293,7 +1293,7 @@ elif page == "Business Insights":
             if 'ROC-AUC' in clf_df.columns:
                 clf_df = clf_df.sort_values('ROC-AUC', ascending=False)
             st.dataframe(
-                clf_df.style.background_gradient(colormap='Purples',
+                clf_df.style.background_gradient(cmap='Purples',
                     subset=[c for c in ['Accuracy','F1 Score','ROC-AUC'] if c in clf_df.columns]),
                 use_container_width=True, height=320
             )
@@ -1364,7 +1364,7 @@ elif page == "Business Insights":
             if 'R²' in reg_df.columns:
                 reg_df = reg_df.sort_values('R²', ascending=False)
             st.dataframe(
-                reg_df.style.background_gradient(colormap='Greens',
+                reg_df.style.background_gradient(map='Greens',
                     subset=[c for c in ['R²'] if c in reg_df.columns]),
                 use_container_width=True, height=260
             )
