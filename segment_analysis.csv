@@ -1,0 +1,11 @@
+platform,creative_format,device_type,Avg_ROAS,Avg_CTR,Avg_Conv_Rate,Total_Profit,Count
+TikTok,Story,Desktop,45.5037,2.6083,4.8243,908877.37,27
+TikTok,Video,Desktop,19.3622,4.071,4.8466,11821751.42,129
+Facebook,Video,Desktop,18.9377,3.8652,6.7762,18891601.87,291
+TikTok,Interactive,Desktop,17.7883,3.0919,3.6289,726918.93,29
+Twitter,Interactive,Desktop,17.0661,3.4305,5.7747,1561847.02,31
+Facebook,Text,Desktop,16.7214,1.5677,6.7158,1088481.25,56
+Instagram,Video,Desktop,16.2288,3.8301,6.7182,7051034.27,93
+TikTok,Image,Desktop,15.8379,2.3599,3.6719,5940013.32,154
+Instagram,Image,Desktop,15.5514,2.0487,4.6719,5660262.15,110
+Facebook,Carousel,Desktop,15.4617,2.6856,5.004,5736528.81,140
